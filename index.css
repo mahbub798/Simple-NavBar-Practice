@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.flex-container {
+    background-color: turquoise;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.flex-item-1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.flex-item-2 ul{
+    margin: 0;
+    padding: 0;
+}
+.flex-item-2 ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.flex-item-2 ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px ;
+    transition: all .3s ease 0s;
+}
+
+.flex-item-2 ul li a:hover {
+    color: tomato;
+
+}
