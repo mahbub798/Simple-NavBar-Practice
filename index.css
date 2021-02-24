@@ -20,23 +20,18 @@ body {
     border-radius: 50%;
     cursor: pointer;
 }
-.flex-item-2 input {
-    width: 700px;
-    border-radius: 25px;
-    border: 1px solid white;
-}
 
-.flex-item-3 ul{
+.flex-item-2 ul{
     margin: 0;
     padding: 0;
 }
-.flex-item-3 ul li {
+.flex-item-2 ul li {
     list-style: none;
     display: inline-block;
     
 }
 
-.flex-item-3 ul li a {
+.flex-item-2 ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -44,7 +39,7 @@ body {
     transition: all .3s ease 0s;
 }
 
-.flex-item-3 ul li a:hover {
+.flex-item-2 ul li a:hover {
     color: tomato;
 
 }
